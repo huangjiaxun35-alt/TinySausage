@@ -5,7 +5,7 @@ import threading
 OLLAMA_URL = "http://localhost:11434/api/chat"
 MODEL = "llama3"
 
-messages = [{"role":"system","content":"You are a helpful AI assistant."}]
+messages = [{"role":"system","content":"You are a helpful AI assistant. You are the llama3 ai model running locally on the user's computer. "}]
 
 
 
